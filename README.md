@@ -8,6 +8,13 @@ During fine-tuning, we froze the initial layers of the BERT model to retain the 
 Our pipeline involves preprocessing the input data, tokenizing using the BERT tokenizer, fine-tuning the model, and evaluating its performance using relevant metrics. This approach leverages transfer learning to achieve robust classification performance
 
 
+## About The Dataset
+- ISOT Fake News Dataset contains labeled fake and real news articles. This dataset was collected from realworld sources; the truthful articles were obtained by crawling articles from Reuters.com (News website). As for the fake news articles, they were collected from different sources. The fake news articles were collected from unreliable websites that were flagged by Politifact (a fact-checking organization in the USA) and Wikipedia.
+- The dataset consists of two CSV files. The first file named “True.csv” contains more than 12,600 articles from reuter.com. The second file named “Fake.csv” contains more than 12,600 articles from different fake news outlet resources. Each article contains the following information: article title, text, type and the date the article was published on.
+- Url: https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data
+- ### Dataset Class Distribution:
+  ![image](https://github.com/user-attachments/assets/89471f8f-50e6-47ae-bd9a-fdfd29562b55)
+
 ### About BERT base model (uncased)
 - BERT is a Pretrained model on English language using a masked language modeling (MLM) objective. It is a transformers model pretrained on a large corpus of English data in a self-supervised fashion. This means it was pretrained on the raw texts only, with no humans labeling them in any way (which is why it can use lots of publicly available data) with an automatic process to generate inputs and labels from those texts. It was trained with two objectives Masked Language Modelling (MLM) and Next Sentence Prediction (NSP).
 - Please refer https://arxiv.org/abs/1810.04805 for more information about BERT.
@@ -26,10 +33,3 @@ Our pipeline involves preprocessing the input data, tokenizing using the BERT to
 
 - We have used AdamW optimizer which is a standard optimizer for transfer learning tasks
 - Negative Log Likelihood Loss has been used since we have used log softmax in our model for numerical stability. 
-
-## About The Dataset
-- ISOT Fake News Dataset contains labeled fake and real news articles. This dataset was collected from realworld sources; the truthful articles were obtained by crawling articles from Reuters.com (News website). As for the fake news articles, they were collected from different sources. The fake news articles were collected from unreliable websites that were flagged by Politifact (a fact-checking organization in the USA) and Wikipedia.
-- The dataset consists of two CSV files. The first file named “True.csv” contains more than 12,600 articles from reuter.com. The second file named “Fake.csv” contains more than 12,600 articles from different fake news outlet resources. Each article contains the following information: article title, text, type and the date the article was published on.
-- Url: https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data
-- ### Dataset Class Distribution:
-  ![image](https://github.com/user-attachments/assets/89471f8f-50e6-47ae-bd9a-fdfd29562b55)
