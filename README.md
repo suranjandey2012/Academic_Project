@@ -42,7 +42,7 @@ A is the $n \times n$ adjacency matrix and D is the $n \times n$ node degree mat
 ## Paper
 The paper titled "Semi-supervised Classification with Graph Convolutional Networks" by Thomas Kipf and Max Welling is accessible [here](https://arxiv.org/abs/1609.02907).
 
-## Deep Learning and Python Libraries Used
+## Python Libraries Used
 - Pytorch
 - torch_geometric
 - Matplotlib
