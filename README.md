@@ -8,6 +8,9 @@
 ## About Graph Convolution Network
 A Graph Convolution Network (GCN) is a type of neural network designed to perform convolutional operations on graph-structured data. Unlike standard convolutional networks that operate on grid-like data such as images, GCNs can learn node embeddings by aggregating and propagating information from neighboring nodes in a graph. This makes them particularly effective for tasks like semi-supervised node classification, link prediction, and graph-level predictions. GCNs use spectral graph theory and a message-passing mechanism to perform graph convolutions, allowing the model to leverage both node features and the graph's connectivity structure.
 
+![image](https://github.com/user-attachments/assets/fb7c8a06-d0f2-4150-91b0-e2a45083d3f3)
+
+
 ## About The Dataset
 Cora dataset is a citation network that can be sourced from the Planetoid library.It is a standard benchmark for node classification tasks. In this graph nodes represent documents and edges represent citation links. Training, validation and test splits are given by binary masks. The entire dataset can be loaded from torch_geometric.datasets module.
 ### Cora Dataset Overview
