@@ -20,8 +20,11 @@ Our pipeline involves preprocessing the input data, tokenizing using the BERT to
 - Please refer https://arxiv.org/abs/1810.04805 for more information about BERT.
 - BERT has originally been released in base and large variations, for cased and uncased input text. The uncased models also strips out an accent markers.
 - Hugging Face URL: https://huggingface.co/google-bert/bert-base-uncased
-  
-  ![image](https://github.com/user-attachments/assets/637d7526-dd82-49d7-b8d8-9974ec2a9b05)
+
+  |         **Model**            | #Params  | **Language** |
+  |------------------------------|----------|--------------|
+  |   bert-base-uncased          |  110M    | English      |
+ 
 
  ### About Transfer Learning & Fine Tuning
  - Transfer Learning is a technique where the deep leaning models that has been already trained on large datasets are used to perform similar task on some other dataset while Fine Tuning involves training a Pre-trained model with huge number of parameters in the order of (millions or even billions) on a relatively smaller dataset for downstream tasks.
