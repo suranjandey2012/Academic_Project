@@ -35,4 +35,12 @@ Our pipeline involves preprocessing the input data, tokenizing using the BERT to
 ![image](https://github.com/user-attachments/assets/805254ca-a214-4190-a0a8-99a6f988c5ab)
 
 - We have used AdamW optimizer which is a standard optimizer for transfer learning tasks
-- Negative Log Likelihood Loss has been used since we have used log softmax in our model for numerical stability. 
+- Negative Log Likelihood Loss has been used since we have used log softmax in our model for numerical stability.
+
+### Python Libraries Used
+- Pytorch
+- transformers (Hugging Face)
+- numpy
+- pandas
+- matplotlib
+- sklearn
