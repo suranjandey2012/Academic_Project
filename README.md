@@ -8,6 +8,9 @@
 ## About Graph Convolution Network
 A Graph Convolution Network (GCN) is a type of neural network designed to perform convolutional operations on graph-structured data. Unlike standard convolutional networks that operate on grid-like data such as images, GCNs can learn node embeddings by aggregating and propagating information from neighboring nodes in a graph. This makes them particularly effective for tasks like semi-supervised node classification, link prediction, and graph-level predictions. GCNs use spectral graph theory and a message-passing mechanism to perform graph convolutions, allowing the model to leverage both node features and the graph's connectivity structure.
 
+![image](https://github.com/user-attachments/assets/fb7c8a06-d0f2-4150-91b0-e2a45083d3f3)
+
+
 ## About The Dataset
 Cora dataset is a citation network that can be sourced from the Planetoid library.It is a standard benchmark for node classification tasks. In this graph nodes represent documents and edges represent citation links. Training, validation and test splits are given by binary masks. The entire dataset can be loaded from torch_geometric.datasets module.
 ### Cora Dataset Overview
@@ -39,7 +42,7 @@ A is the $n \times n$ adjacency matrix and D is the $n \times n$ node degree mat
 ## Paper
 The paper titled "Semi-supervised Classification with Graph Convolutional Networks" by Thomas Kipf and Max Welling is accessible [here](https://arxiv.org/abs/1609.02907).
 
-## Deep Learning and Python Libraries Used
+## Python Libraries Used
 - Pytorch
 - torch_geometric
 - Matplotlib
@@ -47,9 +50,10 @@ The paper titled "Semi-supervised Classification with Graph Convolutional Networ
 
 ## Results
 - t-SNE plot of the embedding before training the model on dataset
-![image](https://github.com/user-attachments/assets/94cea927-58cd-4b06-b38b-9f2387a81700)
+![image](https://github.com/user-attachments/assets/554e3a7b-565f-45f1-804c-31346dd24753)
 
 
 - t-SNE Visualization of Node Embeddings Using Model Predicted Labels Post-Training
-  ![image](https://github.com/user-attachments/assets/77376e59-68bf-4d28-a243-53f6847c7375)
+  ![image](https://github.com/user-attachments/assets/0be9ba96-f947-4bcc-94f8-ffe3b5f515a5)
+
 
