@@ -50,9 +50,10 @@ The paper titled "Semi-supervised Classification with Graph Convolutional Networ
 
 ## Results
 - t-SNE plot of the embedding before training the model on dataset
-![image](https://github.com/user-attachments/assets/94cea927-58cd-4b06-b38b-9f2387a81700)
+![image](https://github.com/user-attachments/assets/554e3a7b-565f-45f1-804c-31346dd24753)
 
 
 - t-SNE Visualization of Node Embeddings Using Model Predicted Labels Post-Training
-  ![image](https://github.com/user-attachments/assets/77376e59-68bf-4d28-a243-53f6847c7375)
+  ![image](https://github.com/user-attachments/assets/0be9ba96-f947-4bcc-94f8-ffe3b5f515a5)
+
 
